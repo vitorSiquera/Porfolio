@@ -3,6 +3,10 @@
   padding: 0px;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 @font-face {
   font-family: 'dunafont'; /* Nome da fonte */
   src: url('Dune_Rise.otf') format('opentype'), /* Caminho para o arquivo de fonte WOFF2 */
@@ -37,12 +41,18 @@ body{
   
 }
 
+.menu ul li:not(:last-child)::after{
+  content: '//';
+  color: white;
+}
+
 .menu ul {
   list-style: none; 
   padding: 0; 
   margin: 0;
-  margin-right: 30rem; 
+  margin-right: 35rem; 
   margin-top: 10px;
+  font-size: 15px;
 
 }
 
@@ -52,33 +62,59 @@ body{
 }
 
 .menu ul li a {
-  color: black; 
+  color: white; 
   text-decoration: none; 
   padding: 0 10px; 
 }
 
+
+
 /*CORPO*/
 
 .main {
-  display: flex; /* Usa um layout flexível */
-  justify-content: center; /* Centraliza o conteúdo horizontalmente */
-  align-items: flex-start; /* Alinha o conteúdo no início verticalmente */
-  height: 100vh; /* Define a altura para ocupar toda a altura da viewport */
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: flex-start; 
+  height: 100vh; 
 }
 
+
+/*seçao 1*/
+
 .hnome {
-  margin-top: -400px; /* Ajusta a margem superior conforme necessário */
+  margin-top: -500px; 
+  justify-content: center;
+  align-items: center;
   font-size: 40px;
-  text-align: center; /* Centraliza o texto horizontalmente */
+  text-align: center; 
+  color: white;
+  margin-left: 300px;
 }
 
 .hnome h1, .hnome h3 {
-  margin: 0; /* Remove margens padrão */
+  margin: 0; 
+}
+
+.hnome h1{
+  margin: 0 auto;
 }
 
 .hnome h3{
   font-size: 18px;
 }
+
+/*seção2*/
+
+.second{
+  margin-top: 387px;
+  color: white;
+  width: 100%;
+  /* background-color: #353983; */
+  background-color: #686ba0;
+  height: 780px;
+}
+
 
 
 
