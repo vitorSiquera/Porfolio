@@ -22,7 +22,7 @@ html{
 }
 
 @font-face {
-  font-family: minimal;
+  font-family: 'minimal';
   src: url(minimal.otf) format(truetype);
 }
 
@@ -103,7 +103,7 @@ body {
 
 }
 .about h3{
-  font-family: minimal;
+  font-family: 'minimal';
   margin-top: 2%;
   margin-left: 34%;
   text-align: left;
@@ -131,24 +131,109 @@ body {
 .terceira2{
   background-color: rgb(0, 0, 0);
   color: rgb(255, 255, 255);
-  width: 70vw;
+  width: 20vw;
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: -34%;
-  margin-left: 15%;
+  margin-left: 8%;
   font-size: 50%;
   border-radius: 0.7%;
 }
 
 .software-develop{
-  font-family: minial;
+  font-family: minimal;
   font-size: 500%;
-
+  
 }
 
+.terceira3{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -25%;
+  margin-left: 36%;
+  font-size: 50%;
+  border-radius: 0.7%;
+}
+
+.Backend{
+  font-family: minimal;
+  font-size: 500%;
+  
+}
+
+
+.terceira4{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -25%;
+  margin-left: 57%;
+  font-size: 50%;
+  border-radius: 0.7%;
+}
+
+.frontend{
+  font-family: minimal;
+  font-size: 500%;
+  
+}
+
+
+.terceira4{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -25%;
+  margin-left: 57%;
+  font-size: 50%;
+  border-radius: 0.7%;
+}
+
+.frontend{
+  font-family: minimal;
+  font-size: 500%;
+  
+}
+
+.terceira5{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 20vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -25%;
+  margin-left: 78%;
+  font-size: 50%;
+  border-radius: 0.7%;
+}
+
+.sql{
+  font-family: minimal;
+  font-size: 500%;
+  
+}
 
 
 
